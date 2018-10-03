@@ -1,0 +1,7 @@
+div {
+    background-color: lightyellow;
+    width: 350px;
+    border: 25px solid rgb(0, 19, 128);
+    padding: 25px;
+    margin: 25px;
+}

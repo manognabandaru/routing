@@ -1,0 +1,19 @@
+
+<h1 style="text-align: center;color:crimson">
+  Welcome to the Application
+</h1>
+
+<div>
+<ul>
+  <li><a routerLink="/home" routerLinkActive="custom">Home</a></li>
+  <li><a [routerLink]="['/details',2]" [queryParams]="{show:'mano'}" fragment="kir" routerLinkActive="custom">Details</a></li>
+  <li><a routerLink="/news" routerLinkActive="custom">News</a></li>
+  <li><a routerLink="/contact" routerLinkActive="custom">Contact</a></li>
+  <li><a routerLink="/about" routerLinkActive="custom">About Lazy Component</a></li>
+</ul>
+</div>
+
+<button (click)="onLogin()">Login</button>
+
+<button (click)="onLogout()">Logout</button>
+<router-outlet></router-outlet>
